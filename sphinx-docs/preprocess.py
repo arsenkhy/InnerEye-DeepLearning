@@ -21,7 +21,7 @@ if __name__ == '__main__':
     docs_root = sphinx_root / "source" / "docs"
     repository_url = "https://github.com/microsoft/InnerEye-DeepLearning"
 
-    # copy README.md and doc files
+    # copy README.md and CHANGELOG.md files
     shutil.copy(repository_root / "README.md", docs_root)
     shutil.copy(repository_root / "CHANGELOG.md", docs_root)
 
